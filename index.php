@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Validador de contraseñas</title>
 </head>
 <body>
     <?php
@@ -29,7 +30,7 @@
 
     }
     Validar_contrasenia($contrasenia);
-    Clasificar_contrasenia($contraseña);
+    Clasificar_contrasenia($contrasenia);
     ?>
 </body>
 </html>
