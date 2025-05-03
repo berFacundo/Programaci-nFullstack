@@ -1,13 +1,14 @@
 body {
   margin: 0;
-  padding: 0;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 form {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   width: 80%;
   max-width: 600px;
   min-width: 300px;
@@ -15,20 +16,18 @@ form {
   margin: 5vh auto;
   padding: 2vw;
   border: 0.2vw solid #ccc;
-  border-radius: 1vw;
+  border-radius: 2vw;
   display: flex;
   flex-direction: column;
   gap: 2vh;
-  font-size: clamp(0.9rem, 1.2vw, 1.5rem);
   box-sizing: border-box;
   transition: width 0.1s ease, font-size 0.1s ease;
 }
 
 @media (min-width: 1000px) {
   form {
-    width: 60vw;
     max-width: 600px;
-    font-size: clamp(1.2rem, 1.5vw, 1.8rem);
+    font-size: clamp(1.1rem, 1.4vw, 1.7rem);
   }
 }
 
@@ -65,7 +64,10 @@ label {
 }
 
 input,
-textarea, select {
+select {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: inherit;
   width: 65%;
   border: 0.1vw solid #999;
@@ -74,6 +76,9 @@ textarea, select {
 
 input,
 textarea {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: inherit;
   width: 65%;
   box-sizing: border-box;
@@ -86,18 +91,15 @@ textarea:focus {
   border-color: #000;
 }
 
-textarea {
-  vertical-align: top;
-  height: 10vh;
-  resize: vertical;
-}
-
 .button {
   padding-left: 30%;
 }
 
 button {
-  margin-left: 1vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-left: 0.5vw;
   font-size: inherit;
   padding: 0.5vh 1vw;
 }
@@ -107,12 +109,12 @@ button {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
+  padding-left: 13%;
   gap: 1.5vw;
 }
 
 .myf label {
   width: auto;
-  margin: 0;
   font-size: inherit;
 }
 
