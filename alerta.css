@@ -4,9 +4,9 @@ body {
     margin: 0;
     min-height: 100vh;
     display: flex;
-    align-items: center;     /* Centrado vertical */
-    justify-content: center; /* Centrado horizontal */
-    font-size: clamp(0.8rem, 1.6vw, 1.5rem); /* Tamaño de fuente adaptable */
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(0.8rem, 1.6vw, 1.5rem);
   }
   
   section {
@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    flex-direction: column; /* Cambia la dirección del contenedor a columna */
+    flex-direction: column;
   }
   
   .alerta {
@@ -25,19 +25,19 @@ body {
     text-align: center;
     align-content: center;
     justify-content: center;
-    margin-top: 2vw; /* Un margen para separar la alerta */
+    margin-top: 2vw;
     font-size: clamp(0.8rem, 2vw, 1.5rem);
   }
   
   .contenedor {
     display: flex;
     width: 100%;
-    flex-direction: row; /* Las columnas siguen en fila */
-    gap: 1vw; /* Espacio entre columnas */
+    flex-direction: row;
+    gap: 1vw;
   }
   
   .columna {
-    flex: 1; /* Las columnas ocupan el mismo tamaño */
+    flex: 1;
     margin: 1vw;
     background: rgb(87, 87, 87);
     border-radius: 1vh;
