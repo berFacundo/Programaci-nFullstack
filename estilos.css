@@ -65,6 +65,14 @@ label {
 }
 
 input,
+textarea, select {
+  font-size: inherit;
+  width: 65%;
+  border: 0.1vw solid #999;
+  padding: 0.5vh;
+}
+
+input,
 textarea {
   font-size: inherit;
   width: 65%;
