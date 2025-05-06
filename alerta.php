@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        $temperatura = -6; //En grados Celsious
+        $temperatura = 20; //En grados Celsious
         $humedad = 89; //Porcentaje
         $viento = 15; //En kilómetros por hora 
         $precipitacion = 42; //Porcentaje
