@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+.debil {
+    color: rgb(197, 74, 74);
+}
+
+.media {
+    color: rgb(255, 196, 0);
+}
+
+.fuerte {
+    color: rgb(74, 197, 74);
+}
