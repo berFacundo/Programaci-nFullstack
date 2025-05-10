@@ -23,17 +23,17 @@
             } elseif ($temperatura <= 12) {
                 echo "Advertencia de frío: Utilice abrigo.";
             } else {
-                echo "🌤️ Temperatura moderada: Condiciones agradables.";
+                echo "Temperatura moderada: Condiciones agradables.";
             }
         }
 
         function alertaHumedad($humedad) {
-            if ($humedad >= 80) {
+            if ($humedad >= 85) {
                 echo "Humedad muy alta: Ambiente sofocante, posibles molestias.";
             } elseif ($humedad >= 60) {
                 echo "Humedad alta: Sensación térmica aumentada.";
             } else {
-                echo "Humedad moderada o baja: Clima cómodo.";
+                echo "Humedad moderada/baja: Clima cómodo.";
             }
         }
 
