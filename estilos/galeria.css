@@ -1,0 +1,8 @@
+@import "bootstrap/scss/bootstrap";
+
+.contenedor1 {
+    width: 50%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 7%;
+}
